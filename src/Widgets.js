@@ -21,8 +21,9 @@ function Widgets() {
         <TwitterTweetEmbed tweetId={"1591911708947537920"} />
 
         <TwitterTimelineEmbed
+        className="testeeerrr"
           sourceType="profile"
-          screenName="elonmusk"
+          screenName="artindetails"
           options={{ height: 400 }}
         />
 

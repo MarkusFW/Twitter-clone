@@ -29,3 +29,45 @@
   font-size: 20px;
   font-weight: 800;
 }
+
+/*
+
+RESPONSIVNES/MEDIA
+
+*/
+
+@media (max-width: 600px) {
+  
+  body{
+    display: flex;
+    justify-content: center;
+  }
+
+  .post__body{
+    width: 300px;
+  }
+
+  .post__body > img {
+    width: 300px;
+  }
+
+  }
+
+
+  @media (max-width: 400px) {
+  
+    body{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .post__body{
+      width: 250px;
+    }
+  
+    .post__body > img {
+      width: 300px;
+      margin-left: -50px;
+    }
+  
+    }
